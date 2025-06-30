@@ -1,0 +1,28 @@
+repos:
+  - repo: https://github.com/psf/black
+    rev: 25.1.0
+    hooks:
+      - id: black
+        args: [ "--line-length=120" ]
+
+  - repo: https://github.com/pycqa/flake8
+    rev: 7.2.0
+    hooks:
+      - id: flake8
+        additional_dependencies: [ ]
+        args: [ "--config=.flake8" ]
+
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.15.0
+    hooks:
+      - id: mypy
+
+#  - repo: local
+#    hooks:
+#      - id: pytest
+#        name: Run pytest
+#        entry: pytest
+#        language: system
+#        types: [python]
+#        args: [ "tests/" ]
