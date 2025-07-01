@@ -1,11 +1,6 @@
-from backend.whatsapp.utils import (
-    get_media_data,
-    fetch_media,
-    get_file_name,
-    save_media,
-    send_whatsapp_reply,
-    is_media_send,
-)
+from backend.whatsapp.utils import (fetch_media, get_file_name, get_media_data,
+                                    is_media_send, save_media,
+                                    send_whatsapp_reply)
 
 
 def process_whatsapp_webhook(request):

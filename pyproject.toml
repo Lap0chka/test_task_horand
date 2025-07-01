@@ -3,7 +3,7 @@ python_version = "3.12"
 warn_return_any = true
 warn_unused_configs = true
 disallow_untyped_defs = true
-exclude = "(venv/|.*__init__\\.py$|core/)"
+exclude = "(venv_test_horand/|.*__init__\\.py$|core/)"
 ignore_missing_imports = false
 
 
@@ -11,4 +11,4 @@ ignore_missing_imports = false
 line-length = 100
 target-version = ["py311"]
 skip-string-normalization = false
-exclude = "(venv/|.*__init__\\.py$|core/)"
+exclude = "(venv_test_horand/|.*__init__\\.py$|core/)"

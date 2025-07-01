@@ -66,3 +66,5 @@ grpc/**
 /venv/
 venv/
 venv_template/
+/venv_test_horand/
+/media/

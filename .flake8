@@ -1,4 +1,4 @@
 [flake8]
 max-line-length = 100
-exclude = proto_out, __pycache__, venv, build, dist, __init__.py, migrations, *migrations, *__init__.py, core/
+exclude = proto_out, __pycache__, venv_test_horand, build, dist, __init__.py, migrations, *migrations, *__init__.py, core/
 ignore = E203,W503

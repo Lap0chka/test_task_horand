@@ -1,4 +1,5 @@
 from base import MIDDLEWARE  # noqa: F401
+
 from .logger_config import LOGGING  # noqa: F401
 
 ALLOWED_HOSTS = []
